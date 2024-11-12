@@ -1,0 +1,9 @@
+.items-list {
+  padding-inline-start: unset;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  width: fit-content;
+}

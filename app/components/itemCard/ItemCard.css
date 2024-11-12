@@ -1,0 +1,20 @@
+.item-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: center;
+  border: solid;
+  width: 20em;
+  padding: 0.5em;
+}
+
+.item-card-item-name {
+  font-weight: bold;
+}
+
+.item-card-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

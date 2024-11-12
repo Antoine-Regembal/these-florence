@@ -1,0 +1,13 @@
+services:
+  postgresThese:
+    image: postgres:15
+    container_name: postgresThese
+    hostname: postgres
+    environment:
+      POSTGRES_DB: these
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    command: ["postgres", "-c", "log_statement=all"]

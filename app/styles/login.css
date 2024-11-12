@@ -1,0 +1,16 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  padding: 20vh 20vw 0 20vw;
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
